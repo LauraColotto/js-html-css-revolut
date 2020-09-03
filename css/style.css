@@ -19,6 +19,15 @@ li{
   margin-right: 15px;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: black;
+}
+
 .button{
   background-color: #eb008d;
   border-radius: 100px;
@@ -27,7 +36,7 @@ li{
   width: 150px;
   padding: 10px 20px;
   text-align: center;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 .container{
@@ -40,6 +49,7 @@ li{
   margin: auto;
   /* width: 100vh; */
   height: 80px;
+  line-height: 80px;
 }
 
 .nav-left{
@@ -50,13 +60,12 @@ li{
   display: inline-block;
   right: 0;
 
-
-  line-height: 80px;
 }
 
 #logo{
   display: inline-block;
   max-height: 80px;
+  vertical-align: bottom;
 }
 
 .p-relative{
@@ -65,11 +74,11 @@ li{
 
 .tendina{
   position: absolute;
-  margin-top: -25px;
+  margin-top: -20px;
   padding: 10px;
   padding-left: 20px;
-  /* display: none; */
-  background-color: lightblue;
+  display: none;
+  background-color: white;
   width: 250px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 18px 2px rgba(0,0,0,0.11);
