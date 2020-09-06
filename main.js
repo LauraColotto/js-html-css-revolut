@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-  $(".open").click(
+  $(".open").hover(
     function(){
-      $(".tendina").toggle();
+      $(this).children(".tendina").toggle();
     }
   );
 
